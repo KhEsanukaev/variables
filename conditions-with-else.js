@@ -7,6 +7,11 @@ const userAge = 20;
 */
 // тут твой код
 
+if (userAge < 35) {
+  console.log("ты пацан");
+} else {
+  console.log("не по-пацански");
+}
 
 //задание 2
 const isUser = false;
@@ -16,7 +21,11 @@ const isUser = false;
   значение константы isTrue истинно, иначе нужно вывести "не пользователь ты мне"
 */
 // тут твой код
-
+if (isUser) {
+    console.log("привет, юзер");
+} else {     
+    console.log("не пользователь ты мне");
+}
 
 //задание 3
 const password = "sherlock";
@@ -28,6 +37,11 @@ const realPassword = "holmes";
    иначе необходимо вывести "неверный пароль".
 */   
 // тут твой код
+if (password === realPassword) {
+    console.log("правильный пароль" );
+} else {
+    console.log("неверный пароль")
+}
 
 
 // задание 4 (со звездочкой)
@@ -39,7 +53,11 @@ const email = "admin@intocode.ru";
   Тебе понадобится метод indexOf: https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/String/indexOf
 */
 // тут твой код
-
+if (email.indexOf('@') === -1) {
+    console.log("неверный эмайл");
+} else {
+    console.log("ты зареган");
+}
 // задание 5
 const x = 2.7;
 const y = -6;
@@ -48,3 +66,8 @@ const y = -6;
   оно больше значения переменной y, иначе выведи значение переменной y
 */
 // тут твой код
+if (x > y) {
+    console.log('x');
+} else {
+    console.log('y')
+}
